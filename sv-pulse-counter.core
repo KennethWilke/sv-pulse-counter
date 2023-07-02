@@ -1,0 +1,14 @@
+CAPI=2:
+name: kwilke:simple:sv-pulse-counter:1.0.0
+description: A resetable pulse counter
+
+filesets:
+  rtl:
+    files:
+      - pulse_counter.sv
+    file_type: systemVerilogSource
+
+targets:
+  default: &default
+    filesets:
+      - rtl
